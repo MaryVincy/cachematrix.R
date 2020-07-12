@@ -1,4 +1,3 @@
-# cachematrix.R
 ## A special matrix that cache it's inverse value
 makeCacheMatrix <- function(x = matrix()){
 inv <- NULL
