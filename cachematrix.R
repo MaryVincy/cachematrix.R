@@ -12,7 +12,7 @@ getInverse <- function() {inv}
 list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
-## Computes the inverse of the matrix
+## Gets the inverse of the matrix
 
 cacheSolve <- function(x, ...){
 inv <- x$getInverse()
